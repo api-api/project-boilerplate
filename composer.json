@@ -1,0 +1,8 @@
+{
+  "require": {
+    "api-api/core": "dev-master",
+    "api-api/storage-cookie": "dev-master",
+    "api-api/transporter-requests": "dev-master",
+    "api-api/authenticator-x-account": "dev-master"
+  }
+}
