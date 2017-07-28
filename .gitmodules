@@ -1,3 +1,6 @@
 [submodule "src"]
 	path = src
-	url = git@github.com:awsmug/alexa-sdk.git
+	url = git@github.com:api-api/structure-billomat.git
+[submodule "develop"]
+	path = develop
+	url = git@github.com:api-api/structure-billomat.git
