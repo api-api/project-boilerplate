@@ -5,5 +5,6 @@ dirname=${PWD##*/}
 docker-compose up -d
 
 if [ ! -d ./src ]; then
-    git clone git@github.com:api-api/structure-of-api.git ./src
+    git submodule add git@github.com:awsmug/alexa-sdk.git ./src
+    git submodule init
 fi
