@@ -38,7 +38,7 @@ echo "========================================" >&2
 echo "Starting Docker Container..." >&2
 echo "========================================" >&2
 
-docker-compose up -d
+docker-compose up
 
 echo "========================================" >&2
 echo "Done!" >&2
