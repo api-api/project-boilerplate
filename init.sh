@@ -3,8 +3,6 @@
 echo "Reading config...." >&2
 source ./config.cfg
 
-dirname=${PWD##*/}
-
 # Adding git repo as submodule
 if [ ! -d ./develop ]; then
     echo "========================================" >&2
@@ -33,13 +31,3 @@ if [ ! -d ./node_modules ]; then
 
     npm install
 fi
-
-echo "========================================" >&2
-echo "Starting Docker Container..." >&2
-echo "========================================" >&2
-
-docker-compose up
-
-echo "========================================" >&2
-echo "Done!" >&2
-echo "========================================" >&2

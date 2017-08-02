@@ -1,4 +1,0 @@
-version: '2'
-services:
-  php:
-    build: ./devops/docker/php/
